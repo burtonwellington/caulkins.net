@@ -7,11 +7,9 @@ body {
 }
 .header {
 	width: 100%;
-	padding-left: 50%;
+	padding-left: 40%;
 }
 .header-image {
-	margin-top: 30%;
-	margin-left: -225px;
 	width: 450px;
 }
 .header-image p {
@@ -24,7 +22,6 @@ body {
 	border-radius: 999px;
 	float: left;
 	width: 200px;
-	margin-left: -30px;
 }
 @media (max-width: 800px) {
 	.header, .header-image, .header-image p, .header-image img { 

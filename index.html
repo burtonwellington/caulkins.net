@@ -9,9 +9,14 @@
 			<p>
 				Burton Caulkins<br/>
 				Code Smith<br/>
-				burton@caulkins.net
+				<span id="email">burton</span>
 			</p>
 			<img src="/me.jpg" alt="me" />
 		</div>
 	</div>
 </body>
+<script type="javascript">
+	//I dont like random emails
+	var span = Document.getElementById("email");
+	span.textContent += "@caulkins.net";
+</script>
